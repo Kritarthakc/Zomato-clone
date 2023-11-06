@@ -7,11 +7,12 @@ const ItemComponent = () => {
       <Text style={{fontSize: 19, fontWeight: 'bold'}}>
         Eat What makes you happy{' '}
       </Text>
-      <View>
+      <View style={{flexDirection:"row",alignItems:"center"}}>
+      <View style={{margin:9}}>
         <Image
           style={styles.MiddleImage}
           source={{
-            uri: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.timesofindia.com%2Flife-style%2Ffood-news%2Fthe-right-way-to-arrange-meals-in-a-thali-as-per-tradition%2Fphotostory%2F94078326.cms&psig=AOvVaw2R7iRGGhFJvu8ID_DZdjCX&ust=1699061913649000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLC0s4DZpoIDFQAAAAAdAAAAABAJ',
+            uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjnMjX8qQb9mLh_IBBHP90SZXccv6uTa662T2Ljfp2xrvNO5IrJmgeWC-RpS_Bxkfzak&usqp=CAU'
           }}
         />
         <Text
@@ -24,6 +25,63 @@ const ItemComponent = () => {
           }}>
           Thalis
         </Text>
+      </View>
+
+      <View style={{margin:9}}> 
+        <Image
+          style={styles.MiddleImage}
+          source={{
+            uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjnMjX8qQb9mLh_IBBHP90SZXccv6uTa662T2Ljfp2xrvNO5IrJmgeWC-RpS_Bxkfzak&usqp=CAU'
+          }}
+        />
+        <Text
+          style={{
+            fontSize: 18,
+            fontWeight: '600',
+            color: 'gray',
+            margin: 10,
+            textAlign: 'center',
+          }}>
+          Pizzas
+        </Text>
+      </View>
+
+      <View style={{margin:9}}>
+        <Image
+          style={styles.MiddleImage}
+          source={{
+            uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjnMjX8qQb9mLh_IBBHP90SZXccv6uTa662T2Ljfp2xrvNO5IrJmgeWC-RpS_Bxkfzak&usqp=CAU'
+          }}
+        />
+        <Text
+          style={{
+            fontSize: 18,
+            fontWeight: '600',
+            color: 'gray',
+            margin: 10,
+            textAlign: 'center',
+          }}>
+          Burger
+        </Text>
+      </View>
+      <View style={{margin:9}}>
+        <Image
+          style={styles.MiddleImage}
+          source={{
+            uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjnMjX8qQb9mLh_IBBHP90SZXccv6uTa662T2Ljfp2xrvNO5IrJmgeWC-RpS_Bxkfzak&usqp=CAU'
+          }}
+        />
+        <Text
+          style={{
+            fontSize: 18,
+            fontWeight: '600',
+            color: 'gray',
+            margin: 10,
+            textAlign: 'center',
+          }}>
+          Dosas
+        </Text>
+      </View>
       </View>
     </View>
   );
